@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>ARM Test Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #f0f8ff;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        p {
+            color: #34495e;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>✅ Hello from ARM Architecture!</h1>
+    <p>This is a test page running inside an ARM-based Docker container.</p>
+    <p>Server Time: <span id="time"></span></p>
+
+    <script>
+        document.getElementById("time").textContent = new Date().toLocaleString();
+    </script>
+</body>
+</html>

@@ -32,5 +32,5 @@ jobs:
           platforms: linux/amd64,linux/arm/v7,linux/arm64
           push: true
           tags: |
-            ZHAOYAOYU123/arm-test-page:latest
-            ZHAOYAOYU123/arm-test-page:${{ github.sha }}
+            zhaoyaoyu123/arm-test-page:latest
+            zhaoyaoyu123/arm-test-page:${{ github.sha }}
